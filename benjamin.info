@@ -1,0 +1,22 @@
+name = Benjamin
+description = A good start for any Drupal site
+core = 7.x
+
+; Core
+dependencies[] = menu
+
+; Contrib
+dependencies[] = admin_menu_toolbar
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = ctools
+dependencies[] = libraries
+dependencies[] = strongarm
+dependencies[] = media
+dependencies[] = media_internet
+dependencies[] = views
+dependencies[] = views_content
+dependencies[] = menu_block
+dependencies[] = admin_views
+
+; Features

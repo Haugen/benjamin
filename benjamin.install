@@ -1,0 +1,17 @@
+<?php
+/**
+ * Implements hook_install().
+ */
+function benjamin_install() {
+  // Use seven as our admin theme.
+  //theme_enable(array('seventeen', 'zilophy'));
+  //theme_disable(array('bartik'));
+  $variables = array(
+    'admin_theme' => 'seventeen',
+    'theme_default' => 'bartik',
+    'node_admin_theme' => 1,
+  );
+  foreach ($variables as $key => $variable) {
+    variable_set($key, $variable);
+  }
+}
