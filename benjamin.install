@@ -7,7 +7,7 @@ function benjamin_install() {
   //theme_enable(array('seventeen', 'zilophy'));
   //theme_disable(array('bartik'));
   $variables = array(
-    'admin_theme' => 'seventeen',
+    'admin_theme' => 'seven',
     'theme_default' => 'bartik',
     'node_admin_theme' => 1,
   );
