@@ -19,6 +19,9 @@ projects[devel][subdir] = contrib
 projects[entity][version] = 1.5
 projects[entity][subdir] = contrib
 
+projects[entity_view_mode][version] = 1.0-rc1
+projects[entity_view_mode][subdir] = contrib
+
 projects[features][version] = 2.2
 projects[features][subdir] = contrib
 
@@ -37,6 +40,9 @@ projects[media][download][type] = git
 projects[media][download][revision] = 2f828ea
 projects[media][subdir] = contrib
 projects[media][patch][2126755] = https://drupal.org/files/issues/media-wysiwyg-improve-our-macro-handling-2126755-58.patch
+
+projects[media_youtube][version] = 2.0-rc4
+projects[media_youtube][subdir] = contrib
 
 projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
