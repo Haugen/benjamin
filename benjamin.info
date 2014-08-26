@@ -3,20 +3,25 @@ description = A good start for any Drupal site
 core = 7.x
 
 ; Core
+dependencies[] = field_ui
 dependencies[] = menu
 
 ; Contrib
 dependencies[] = admin_menu_toolbar
-dependencies[] = panels
-dependencies[] = panels_everywhere
+dependencies[] = admin_views
 dependencies[] = ctools
+dependencies[] = devel
+dependencies[] = diff
+dependencies[] = features
 dependencies[] = libraries
-dependencies[] = strongarm
 dependencies[] = media
 dependencies[] = media_internet
+dependencies[] = menu_block
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_content
-dependencies[] = menu_block
-dependencies[] = admin_views
+dependencies[] = views_ui
 
 ; Features
