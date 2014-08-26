@@ -37,6 +37,15 @@ function ben_base_user_default_permissions() {
     'module' => 'menu',
   );
 
+  // Exported permission: 'administer nodes'.
+  $permissions['administer nodes'] = array(
+    'name' => 'administer nodes',
+    'roles' => array(
+      'Administrator' => 'Administrator',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'bypass file access'.
   $permissions['bypass file access'] = array(
     'name' => 'bypass file access',
@@ -53,6 +62,15 @@ function ben_base_user_default_permissions() {
       'Administrator' => 'Administrator',
     ),
     'module' => 'node',
+  );
+
+  // Exported permission: 'view the administration theme'.
+  $permissions['view the administration theme'] = array(
+    'name' => 'view the administration theme',
+    'roles' => array(
+      'Administrator' => 'Administrator',
+    ),
+    'module' => 'system',
   );
 
   return $permissions;
