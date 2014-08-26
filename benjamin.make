@@ -25,9 +25,11 @@ projects[entity_view_mode][subdir] = contrib
 projects[features][version] = 2.2
 projects[features][subdir] = contrib
 
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][type] = module
+projects[file_entity][download][type] = git
+projects[file_entity][download][revision] = 1e037ad
 projects[file_entity][subdir] = contrib
-projects[file_entity][patch][] = https://drupal.org/files/issues/file_entity-move-file-display-alter-to-db-1858370-17.patch
+projects[file_entity][patch][] = https://drupal.org/files/issues/file_entity_remove_file_display-2192391-16.patch
 
 projects[globalredirect][version] = 1.5
 projects[globalredirect][subdir] = contrib
@@ -37,9 +39,9 @@ projects[libraries][subdir] = contrib
 
 projects[media][type] = module
 projects[media][download][type] = git
-projects[media][download][revision] = 2f828ea
+projects[media][download][revision] = 5d7ed63
 projects[media][subdir] = contrib
-projects[media][patch][2126755] = https://drupal.org/files/issues/media-wysiwyg-improve-our-macro-handling-2126755-58.patch
+projects[media][patch][] = https://drupal.org/files/issues/media_remove_file_display_alter-2104193-76.patch
 
 projects[media_youtube][version] = 2.0-rc4
 projects[media_youtube][subdir] = contrib
