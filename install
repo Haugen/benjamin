@@ -1,0 +1,1 @@
+drush site-install benjamin --account-name=admin --account-pass=admin --db-url=mysql://root:password@localhost/benjamin
