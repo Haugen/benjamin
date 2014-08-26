@@ -64,6 +64,15 @@ function ben_base_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'use text format ben_text_editor'.
+  $permissions['use text format ben_text_editor'] = array(
+    'name' => 'use text format ben_text_editor',
+    'roles' => array(
+      'Administrator' => 'Administrator',
+    ),
+    'module' => 'filter',
+  );
+
   // Exported permission: 'view the administration theme'.
   $permissions['view the administration theme'] = array(
     'name' => 'view the administration theme',
