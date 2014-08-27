@@ -6,9 +6,9 @@
 
 $plugin = array(
   'title' => t('Sidebar left'),
-  'theme' => 'sidebar-left',
+  'theme' => 'sidebar_left',
   'icon' => 'sidebar-left.png',
-  'category' => 'Hatha',
+  'category' => 'Benjamin',
   'regions' => array(
     'top' => t('Top'),
     'sidebar' => t('Sidebar'),

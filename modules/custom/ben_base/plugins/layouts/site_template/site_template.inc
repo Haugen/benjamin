@@ -6,9 +6,9 @@
 
 $plugin = array(
   'title' => t('Site template'),
-  'theme' => 'site-template',
+  'theme' => 'site_template',
   'icon' => 'site-template.png',
-  'category' => 'Hatha',
+  'category' => 'Benjamin',
   'regions' => array(
     'header' => t('Header'),
     'content' => t('Content'),
