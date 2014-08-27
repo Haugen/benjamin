@@ -1,3 +1,4 @@
 libraries
 modules/contrib
-themes
+themes/*
+!themes/hatha
