@@ -1,0 +1,6 @@
+name = Hatha
+description = Basic theme for Benjamin installs, providing layouts, templates and more.
+core = 7.x
+engine = phptemplate
+
+plugins[panels][layouts] = layouts
