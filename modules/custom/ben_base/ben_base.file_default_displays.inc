@@ -12,27 +12,6 @@ function ben_base_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'audio__ben_standard__file_field_file_audio';
-  $file_display->weight = 0;
-  $file_display->status = TRUE;
-  $file_display->settings = array(
-    'controls' => 1,
-    'autoplay' => 0,
-    'loop' => 0,
-    'multiple_file_behavior' => 'tags',
-  );
-  $export['audio__ben_standard__file_field_file_audio'] = $file_display;
-
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
-  $file_display->name = 'document__ben_standard__file_field_file_default';
-  $file_display->weight = 0;
-  $file_display->status = TRUE;
-  $file_display->settings = '';
-  $export['document__ben_standard__file_field_file_default'] = $file_display;
-
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
   $file_display->name = 'image__ben_standard__file_field_image';
   $file_display->weight = 0;
   $file_display->status = TRUE;
