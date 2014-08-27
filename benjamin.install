@@ -3,11 +3,11 @@
  * Implements hook_install().
  */
 function benjamin_install() {
-  theme_enable(array('hatha'));
+  theme_enable(array('hatha', 'swami'));
   theme_disable(array('bartik'));
   $variables = array(
     'admin_theme' => 'seven',
-    'theme_default' => 'hatha',
+    'theme_default' => 'swami',
     'node_admin_theme' => 1,
   );
   foreach ($variables as $key => $variable) {

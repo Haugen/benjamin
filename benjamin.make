@@ -84,3 +84,9 @@ projects[wysiwyg][patch][1956778] = https://drupal.org/files/wysiwyg-ckeditor-ac
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.2/ckeditor_4.3.2_standard.zip
 libraries[ckeditor][destination] = libraries
+
+; Themes
+projects[swami][type] = theme
+projects[swami][download][type] = git
+projects[swami][download][branch] = master
+projects[swami][download][url] = git@github.com:Haugen/swami.git
