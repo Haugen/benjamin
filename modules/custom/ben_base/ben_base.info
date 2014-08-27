@@ -29,6 +29,7 @@ features[file_display][] = video__ben_standard__file_field_file_video
 features[filter][] = ben_text_editor
 features[image][] = ben_standard
 features[node][] = ben_page
+features[page_manager_handlers][] = node_view_panel_context
 features[page_manager_handlers][] = site_template_panel_context
 features[user_permission][] = access administration menu
 features[user_permission][] = access content overview
